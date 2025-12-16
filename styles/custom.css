@@ -1,0 +1,95 @@
+
+.bg {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;      
+  height: auto;     
+  z-index: -1;
+
+ 
+}
+
+
+.img-icon {
+  display: flex;
+  justify-content: center; 
+  padding-top: 120px;     
+}
+
+.img-icon img { 
+  width: 150px;
+  height: 150px;   /* largura = altura */
+  border-radius: 50%; /* redondo */
+  object-fit: cover;  /* corta excesso sem distorcer */
+  display: block;     /* remove gaps de inline */
+}
+.sub {
+  font-family: var(--font-Inconsolata);
+  text-align: center;
+  margin-top: 20px;
+  color: var(--gray-200); 
+}
+
+
+.name-red {
+  color: #E3646E;
+  font-family: var(--font-Inconsolata);
+}
+
+.titulo1 {
+  text-align: center;
+  font-family: var(--title-lg);
+  font-family: var(--font-asap);
+  color: var(--gray-100);
+} 
+
+.sub2 {
+  font-family: var(--font-Inconsolata);
+  text-align: center;
+  margin-top: 20px;
+  color: var(--gray-200); 
+}
+
+
+.cards-caixa {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 25px;
+  background-color: var(--gray-400);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  min-height: 32px;
+  
+}
+
+.card p {
+  font: var(--text-md);
+  color: var(--gray-200);
+  font-family: var(--font-Maven-Pro);
+  margin: 0;
+}
+
+.seta {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.red2 {
+  color: #E3646E;
+  font-family: var(--font-Inconsolata);
+  justify-content: center;
+  display: flex;
+  margin-top: 24px;
+  font-family: var(--subtitle);
+}

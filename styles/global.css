@@ -30,7 +30,7 @@
 
   --title-lg: 700 56px/120% var(--font-asap);
   --title-md: 700 24px/120% var(--font-asap);
-  --title-lg: 700 16px/120% var(--font-asap);
+  --title-sm: 700 16px/120% var(--font-asap);
 
   --subtitle: 400 20px/120% var(--font-Inconsolata);
 
@@ -39,5 +39,8 @@
 }
 
 body {
-  
+  margin: 0;
+  overflow-x: hidden; 
+  position: relative;
+  min-height: 100vh;
 }
