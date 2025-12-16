@@ -1,93 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Dev</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Inconsolata:wght@400;500&family=Maven+Pro:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/index.css">
-
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
-  <img class="bg" src="./assets/Background_Intro.png" alt="">
 
-  <header>
+  <!--INTRO-->
+  <section class="intro">
+    <header>
 
-    <div class="img-icon">
-      <img src="./assets/icons/avatar dark2.jpg" alt="">
-    </div>
+      <div class="img-icon">
+        <img src="./assets/icons/avatar dark2.jpg" alt="">
+      </div>
 
-    <div class="sub">
-      <p>
+      <p class="sub">
         Hello World! Meu nome é <span class="name-red">Davi Martins</span> e sou
       </p>
-    </div>
 
-    <div class="titulo1">
-      <h1>
-        Desenvolvedor Front-End
-      </h1>
-    </div>
+      <h1 class="titulo1">Desenvolvedor Front-End</h1>
 
-    <div class="sub2">
-      <p>
-        Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br> minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+      <p class="sub2">
+        Transformo necessidades em aplicações reais, envolventes e funcionais.
+        Desenvolvo sistemas através da minha paixão pela tecnologia.
       </p>
+
+      <div class="cards-caixa">
+        <div class="card"><img src="./assets/icons/GitHub.svg"><p>Github</p></div>
+        <div class="card"><img src="./assets/icons/HTML.svg"><p>HTML</p></div>
+        <div class="card"><img src="./assets/icons/CSS.svg"><p>CSS</p></div>
+        <div class="card"><img src="./assets/icons/JavaScript.svg"><p>JavaScript</p></div>
+      </div>
+
+    </header>
+
+    <div class="seta">
+      <img src="./assets/icons/Vector.svg" alt="">
     </div>
-
-    <div class="cards-caixa">
-
-
-    <div class="card">
-      <img src="./assets/icons/GitHub.svg" alt="">
-      <p>Github</p></div>
-
-      
-    <div class="card">
-      <img src="./assets/icons/HTML.svg" alt="">
-      <p>HTML</p></div>
+  </section>
 
 
-    <div class="card">
-      <img src="./assets/icons/CSS.svg" alt="">
-      <p>CSS</p></div>
-
-      
-    <div class="card"> 
-      <img src="./assets/icons/JavaScript.svg" alt="">
-      <p>JavaScript</p></div>
-  </div>
+  <!--TÍTULO-->
+  <section class="projects-title">
+    <h5 class="red2">Meu trabalho</h5>
+    <p class="titulo-veja">Veja os projetos em destaque</p>
+  </section>
 
 
+  <!--PROJETOS-->
+  <section class="projects-section">
+    <div class="projects-grid">
 
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-01.png">
+        <h3>Travelgram</h3>
+        <p>Rede social para compartilhar viagens</p>
+      </div>
 
-  </header>
-  
-  <div class="seta">
-    <img src="./assets/icons/Vector.svg" alt="">
-  </div>
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-02.png">
+        <h3>Tech News</h3>
+        <p>Portal de notícias de tecnologia</p>
+      </div>
 
-  <div>
-    <h5 class="red2">
-      Meu trabalho
-    </h5>
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-03.png">
+        <h3>Página de receita</h3>
+        <p>Receita de cupcakes passo a passo</p>
+      </div>
 
-    <p>
-      Veja os projetos em destaque
-    </p>
-  </div>
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-04.png">
+        <h3>Zingen</h3>
+        <p>Landing page de app de karaokê</p>
+      </div>
+
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-05.png">
+        <h3>Refund</h3>
+        <p>Sistema de reembolso</p>
+      </div>
+
+      <div class="project-caixa">
+        <img src="./assets/thumb/Thumbnail_Project-06.png">
+        <h3>Página de turismo</h3>
+        <p>Guia turístico de Busan</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SERVIÇOS-->
+  <section class="serviços">
+    <header>
+      <h5 class="services">
+        Meu trabalho
+      </h5>
+
+      <h3 class="ajudar">
+        Veja os projetos em destaque
+      </h3>
+    </header>
+
+  </section>
+
 </body>
 </html>

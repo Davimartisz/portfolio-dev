@@ -25,7 +25,7 @@
   display: block;     /* remove gaps de inline */
 }
 .sub {
-  font-family: var(--font-Inconsolata);
+  font-family: var(--subtitle);
   text-align: center;
   margin-top: 20px;
   color: var(--gray-200); 
@@ -34,18 +34,18 @@
 
 .name-red {
   color: #E3646E;
-  font-family: var(--font-Inconsolata);
+  font-family: var(--subtitle);
 }
 
 .titulo1 {
   text-align: center;
-  font-family: var(--title-lg);
-  font-family: var(--font-asap);
+  font: var(--title-sm);
   color: var(--gray-100);
+  margin-top: 12px;
 } 
 
 .sub2 {
-  font-family: var(--font-Inconsolata);
+  font: var( --text-sm-pro);
   text-align: center;
   margin-top: 20px;
   color: var(--gray-200); 
@@ -60,8 +60,8 @@
 }
 
 .card {
-  width: 150px;
-  height: 25px;
+  width: 140px;
+  height: 38px;
   background-color: var(--gray-400);
   border-radius: 20px;
   display: flex;
@@ -73,9 +73,8 @@
 }
 
 .card p {
-  font: var(--text-md);
+  font: var(--text-md-pro);
   color: var(--gray-200);
-  font-family: var(--font-Maven-Pro);
   margin: 0;
 }
 
@@ -87,9 +86,56 @@
 
 .red2 {
   color: #E3646E;
-  font-family: var(--font-Inconsolata);
   justify-content: center;
   display: flex;
   margin-top: 24px;
-  font-family: var(--subtitle);
+  font: var(--subtitle);
+}
+
+.titulo-veja {
+  display: flex;
+  font: var(--title-md);
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  color: var(--gray-100);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-caixa {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.project-caixa img {
+  width: 306px;
+  height: 156px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.services {
+  font: var(--subtitle);
+  color: var(--vermelho);
+}
+
+.ajudar {
+  font {
+    font: var(--title-md)
+  }
 }
