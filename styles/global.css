@@ -115,7 +115,8 @@ body {
 
 
 .projects-title {
-  padding: 64px 0 32px;
+  padding-top: 64px; 
+  padding-bottom: 32px; 
   text-align: center;
 }
 

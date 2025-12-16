@@ -19,10 +19,10 @@
 
 .img-icon img { 
   width: 150px;
-  height: 150px;   /* largura = altura */
-  border-radius: 50%; /* redondo */
-  object-fit: cover;  /* corta excesso sem distorcer */
-  display: block;     /* remove gaps de inline */
+  height: 150px;   
+  border-radius: 50%; 
+  object-fit: cover;  
+  display: block;    
 }
 .sub {
   font-family: var(--subtitle);
@@ -129,13 +129,22 @@
   display: block;
 }
 
+.serviços {
+  background-color: var(--gray-600);
+  padding-top: 88px;
+  padding-bottom: 56px; 
+}
+
+
 .services {
+  margin-top: 88px;
   font: var(--subtitle);
   color: var(--vermelho);
+  text-align: center;
 }
 
 .ajudar {
-  font {
-    font: var(--title-md)
-  }
+    font: var(--title-md);
+    color: var(--gray-100);
+    text-align: center;
 }
