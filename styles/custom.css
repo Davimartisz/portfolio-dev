@@ -6,8 +6,6 @@
   width: 100%;      
   height: auto;     
   z-index: -1;
-
- 
 }
 
 
@@ -24,16 +22,9 @@
   object-fit: cover;  
   display: block;    
 }
-.sub {
-  font-family: var(--subtitle);
-  text-align: center;
-  margin-top: 20px;
-  color: var(--gray-200); 
-}
-
 
 .name-red {
-  color: #E3646E;
+  color: var(--vermelho);
   font-family: var(--subtitle);
 }
 
@@ -85,7 +76,7 @@
 }
 
 .red2 {
-  color: #E3646E;
+  color: var(--vermelho);
   justify-content: center;
   display: flex;
   margin-top: 24px;
@@ -129,6 +120,16 @@
   display: block;
 }
 
+.project-caixa h3 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.project-caixa p {
+  font: var(--text-sm-pro);
+  color: var(--gray-200);
+}
+
 .serviços {
   background-color: var(--gray-600);
   padding-top: 88px;
@@ -147,4 +148,37 @@
     font: var(--title-md);
     color: var(--gray-100);
     text-align: center;
+}
+
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 330px);
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.services-caixa {
+  width: 280px;
+  height: 155px;
+  background-color: transparent;
+  border: 2px solid var(--gray-500);
+  border-radius: 12px;
+  padding: 20px;
+  display: grid;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 48px;
+}
+
+.services-caixa h3 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.services-caixa p {
+  font: var(--text-sm-pro);
+  color: var(--gray-200);
 }
